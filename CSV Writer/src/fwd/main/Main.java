@@ -25,7 +25,7 @@ public class Main {
 		csv.write(customers);
 		SmartCsv csv2 = new SmartCsv( "C:\\Java Data Test\\test.csv");
 		csv2.write(customers);
-		
+		csv.printSalary(customers);
 	//	User.log(customers);
 		/*for(int i =0 ;i < customers.length; i++) {
 			System.out.println(customers[i].name + customers[i].lastName + customers[i].age);

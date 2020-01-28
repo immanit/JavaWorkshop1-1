@@ -56,6 +56,11 @@ public class SmartCsv {
 		writer.close();
 	}
 	
+	public void printSalary(User[] users) {
+		System.out.println(User.getSumarySalary(users));
+	}
+	
+	
 	/*private static String getCsvLine(String[] fields) {
 		String answer = "";
 		for(int i = 0; i < fields.length ; i ++) {
