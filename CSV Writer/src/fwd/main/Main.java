@@ -17,6 +17,7 @@ public class Main {
 		
 		//User[] customers = new User[10];
 		//customers[0] = naiKor;
+		//test comit
 		User[] customers =  {
 				new User("SOmpop", "KL", 30, 24000),
 				new User("P kaew", "KK", 30, 500000)
