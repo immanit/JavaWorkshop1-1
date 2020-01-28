@@ -23,7 +23,7 @@ public class Main {
 		//SmartCsv.write(customers, path);
 		SmartCsv csv = new SmartCsv(path, "Windows");
 		csv.write(customers);
-		SmartCsv csv2 = new SmartCsv( "/Users/sompopkulapalanont/Projects/java-course/test2.csv");
+		SmartCsv csv2 = new SmartCsv( "C:\\\\Java Data Test\\\\test.csv");
 		csv2.write(customers);
 		
 	//	User.log(customers);
