@@ -10,10 +10,8 @@ public class Main {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-		String path = "/Users/sompopkulapalanont/Projects/java-course/test.csv";
-		
-		
-		
+		// Update Path
+		String path = "C:\\Java Data Test\\test.csv";
 		
 		//User[] customers = new User[10];
 		//customers[0] = naiKor;
